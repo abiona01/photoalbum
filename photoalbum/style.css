@@ -44,7 +44,7 @@
   }
  @media screen and (max-width: 670px){
     header  {
-      max-height: 500px;
+      max-height: 1000px;
     }
     .containers {
       top: 50%;

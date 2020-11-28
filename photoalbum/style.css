@@ -42,8 +42,19 @@
     font-size: 35px;
     cursor: pointer;
   }
-  @media screen and (max-width: 670px){
+ @media screen and (max-width: 670px){
     header  {
-      min-height: 500px;
+      max-height: 200px;
+    }
+    .containers {
+      top: 50%;
+      left: 10%;
+    }
+    #largeImg {
+      width: 300px;
+      height: 300px;
+    }
+    #imgtext {
+      font-size: 12px;
     }
   }

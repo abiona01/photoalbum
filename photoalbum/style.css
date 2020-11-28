@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgba(0, 0, 0, 0.945);
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .star {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+  }
+  .containers {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+  }
+  #largeImg {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+  }
+  #imgtext {
+    position: absolute;
+    top: -90%;
+    left: -10%;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 670px){
+    header  {
+      min-height: 500px;
+    }
+  }
